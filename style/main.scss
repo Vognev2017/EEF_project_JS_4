@@ -1,0 +1,22 @@
+.container {
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .items {
+        width: 300px;
+        height: auto;
+        box-sizing: border-box;
+        border-right: 1px solid #000000;
+        text-align: center;
+
+        .caption {
+            margin-left: 10%;
+        }
+    }
+}
